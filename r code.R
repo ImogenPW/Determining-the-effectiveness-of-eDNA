@@ -518,7 +518,7 @@ head(data_16_model)
 
 
 
-#model - CO1 (>2000)
+#model - CO1 (n = >2000)
 model <- glm(eDNA ~  title , data = data_co1_model, family = binomial) #model for impact of phylum and study on presence/absence of taxa
 model <- glm(eDNA ~ Phylum , data = data_co1_model, family = binomial) #model for impact of phylum and study on presence/absence of taxa
 #no convergence issues
